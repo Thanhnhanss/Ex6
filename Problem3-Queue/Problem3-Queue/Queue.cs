@@ -38,7 +38,7 @@ namespace Problem3_Queue
         {
             get
             {
-                return bot - top;
+                return top - bot;
             }
         }
         public int Peek()
